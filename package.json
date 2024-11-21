@@ -1,6 +1,6 @@
 {
   "name": "partition-record",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TypeScript utility to partition a record in 2",
   "keywords": [
     "typescript",
