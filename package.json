@@ -1,8 +1,15 @@
 {
   "name": "partition-record",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "TypeScript utility to partition a record in 2",
-  "keywords": ["typescript", "utility", "partition", "object", "record", "generic"],
+  "keywords": [
+    "typescript",
+    "utility",
+    "partition",
+    "object",
+    "record",
+    "generic"
+  ],
   "author": "leumasic",
   "license": "MIT",
   "repository": {
@@ -19,7 +26,12 @@
       "import": "./dist/mjs/wrapper.mjs"
     }
   },
-  "files": ["package.json", "README.md", "LICENSE", "dist/"],
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "dist/"
+  ],
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
     "test": "vitest run --passWithNoTests",
