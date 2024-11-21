@@ -4,7 +4,7 @@ function partitionRecord<T extends Record<PropertyKey, any>>(
 ): [T, T] {
   return Object.entries(record).reduce<[T, T]>(
     (acc, [key, value]) => {
-      const index = predicate(key, value) ? 1 : 0
+      const index = predicate(key, value) ? 0 : 1
       acc[index][key as keyof T] = value
       return acc
     },
